@@ -1,0 +1,8 @@
+kind: NamespaceSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: green-scope-selector
+spec:
+  selector:
+    matchLabels:
+      fleet.gke.io/fleet-scope: green
